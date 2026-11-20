@@ -4,13 +4,13 @@
       key: Ctrl + a | Inicio
     - name: Mueve el cursor al fin de la linea de comandos
       key: Ctrl + e | Fin
-    - name: Mueve el cursor hacia delante una palabra de la línea actual
+    - name: Mueve el cursor una palabra de la línea actual hacia delante
       key: Alt + f | Ctrl + →
-    - name: Mueve el cursor hacia atrás una palabra de la línea actual
+    - name: Mueve el cursor una palabra de la línea actual hacia atras
       key: Alt + b | Ctrl + ←
-    - name: Mueve el cursor hacia atrás un carácter de la línea actual
+    - name: Mueve el cursor un carácter de la línea actual hacia atras
       key: Ctrl + b | ←
-    - name: Mueve el cursor hacia delante un carácter de la línea actual
+    - name: Mueve el cursor un carácter de la línea actual hacia delante
       key: Ctrl + f | →
 - name: Cortar y pegar
   keybinds:
