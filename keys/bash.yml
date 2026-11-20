@@ -1,0 +1,44 @@
+- name: Navegacion del cursor
+  keybinds:
+    - name: Mueve el cursor al inicio de la linea de comandos
+      key: Ctrl + a | Inicio
+    - name: Mueve el cursor al fin de la linea de comandos
+      key: Ctrl + e | Fin
+    - name: Mueve el cursor hacia delante una palabra de la línea actual
+      key: Alt + f | Ctrl + →
+    - name: Mueve el cursor hacia atrás una palabra de la línea actual
+      key: Alt + b | Ctrl + ←
+    - name: Mueve el cursor hacia atrás un carácter de la línea actual
+      key: Ctrl + b | ←
+    - name: Mueve el cursor hacia delante un carácter de la línea actual
+      key: Ctrl + f | →
+- name: Cortar y pegar
+  keybinds:
+    - name: Cortar desde el caracter previo al cursor hasta el principio de linea (copia al portapapeles)
+      key: Ctrl + u
+    - name: Cortar desde el cursor (incluido) hasta el fin de linea (copia al portapapeles)
+      key: Ctrl + k
+    - name: Cortar palabra desde el caracter previo al cursor hasta el inicio (copia al portapapeles)
+      key: Ctrl + w | Esc + Backspace
+    - name: Cortar palabra o parte de ella despues del cursor (copia al portapapeles)
+      key: Alt + d | Esc + d
+    - name: Pegar el ultimo contenido cortado
+      key: Ctrl + y
+- name: Borrado de contenido
+  keybinds:
+    - name: Borra el caracter previo al cursor
+      key: Ctrl + h | Backspace
+    - name: Borra el caracter sobre el que esta el cursor
+      key: Ctrl + d | Del
+- name: Operaciones sobre palabras y caracteres
+  keybinds:
+    - name: "[Intercambio] Intercambia el caracter actual con el anterior"
+      key: Ctrl + t
+    - name: "[Intercambio] Intercambia la palabra actual con la anterior"
+      key: Alt + t
+    - name: "[Mayusculas/Minusculas] Convierte la palabra a mayusculas"
+      key: Alt + u
+    - name: "[Mayusculas/Minusculas] Convierte la palabra a minusculas"
+      key: Alt + l
+    - name: "[Mayusculas/Minusculas] Capitaliza la palabra actual, convirtiendo en mayuscula el caracter del cursor"
+      key: Alt + c
