@@ -26,9 +26,9 @@
       key: Ctrl + y
 - name: Borrado de contenido
   keybinds:
-    - name: [Caracter] Borra el caracter previo al cursor
+    - name: "[Caracter] Borra el caracter previo al cursor"
       key: Ctrl + h | Backspace
-    - name: [Caracter] Borra el caracter sobre el que esta el cursor
+    - name: "[Caracter] Borra el caracter sobre el que esta el cursor"
       key: Ctrl + d | Del
 - name: Operaciones sobre palabras y caracteres
   keybinds:
