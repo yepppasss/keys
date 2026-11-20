@@ -1,0 +1,16 @@
+settings:
+  sort_keys: true
+  reverse: true
+
+color:
+  prompt: "#3584E4"        # Azul de acento clásico de Adwaita / SSH Pilot
+  cursor_fg: "#1E1E1E"     # Texto oscuro sobre la fila seleccionada
+  cursor_bg: "#62A0EA"     # Fondo azul claro para resaltar la selección actual
+  filter_fg: "#57E389"     # Verde menta para resaltar las coincidencias al buscar
+  filter_bg: ""            # Sin fondo extra en el filtro para mantener limpieza
+  counter_fg: "#9A9996"    # Gris neutro para el contador numérico
+  counter_bg: ""           # Fondo transparente
+  placeholder_fg: "#77767B"# Gris tenue para el texto de ayuda en la barra
+  placeholder_bg: ""       # Fondo transparente
+  border_color: "#3D3846"  # Gris pizarra oscuro para el borde de la ventana
+
