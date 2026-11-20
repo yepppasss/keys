@@ -20,7 +20,7 @@
       key: Ctrl + k
     - name: Corta de una palabra, desde el caracter previo al cursor hasta el inicio (copia al portapapeles)
       key: Ctrl + w | Esc + Backspace
-    - name: Corta de una palabra o parte de ella despues del cursor (copia al portapapeles)
+    - name: Corta de una palabra, desde el caracter del curso hasta el final de la palabra (copia al portapapeles)
       key: Alt + d | Esc + d
     - name: Pegar el ultimo contenido cortado
       key: Ctrl + y
