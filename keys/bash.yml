@@ -18,9 +18,9 @@
       key: Ctrl + u
     - name: Cortar desde el cursor (incluido) hasta el fin de linea (copia al portapapeles)
       key: Ctrl + k
-    - name: Cortar palabra desde el caracter previo al cursor hasta el inicio (copia al portapapeles)
+    - name: Corta de una palabra, desde el caracter previo al cursor hasta el inicio (copia al portapapeles)
       key: Ctrl + w | Esc + Backspace
-    - name: Cortar palabra o parte de ella despues del cursor (copia al portapapeles)
+    - name: Corta de una palabra o parte de ella despues del cursor (copia al portapapeles)
       key: Alt + d | Esc + d
     - name: Pegar el ultimo contenido cortado
       key: Ctrl + y
