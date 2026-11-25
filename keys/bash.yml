@@ -1,28 +1,28 @@
 - name: Navegacion del cursor
   keybinds:
-    - name: Mueve el cursor al inicio de la linea de comandos
+    - name: "Mueve el cursor al inicio de la linea de comandos"
       key: Ctrl + a | Inicio
-    - name: Mueve el cursor al fin de la linea de comandos
+    - name: "Mueve el cursor al fin de la linea de comandos"
       key: Ctrl + e | Fin
-    - name: Mueve el cursor una palabra de la línea actual hacia delante
+    - name: "Mueve el cursor una palabra de la línea actual hacia delante"
       key: Alt + f | Ctrl + →
-    - name: Mueve el cursor una palabra de la línea actual hacia atras
+    - name: "Mueve el cursor una palabra de la línea actual hacia atras"
       key: Alt + b | Ctrl + ←
-    - name: Mueve el cursor un carácter de la línea actual hacia atras
+    - name: "Mueve el cursor un carácter de la línea actual hacia atras"
       key: Ctrl + b | ←
-    - name: Mueve el cursor un carácter de la línea actual hacia delante
+    - name: "Mueve el cursor un carácter de la línea actual hacia delante"
       key: Ctrl + f | →
 - name: Cortar y pegar
   keybinds:
-    - name: "[Linea] Cortar desde el caracter previo al cursor hasta el principio de linea (copia al portapapeles)"
+    - name: "[Linea] Corta desde el caracter previo al cursor hasta el principio de linea (copia al portapapeles)"
       key: Ctrl + u
-    - name: "[Linea] Cortar desde el cursor (incluido) hasta el fin de linea (copia al portapapeles)"
+    - name: "[Linea] Corta desde el cursor (incluido) hasta el fin de linea (copia al portapapeles)"
       key: Ctrl + k
     - name: "[Palabra] Corta de una palabra, desde el caracter previo al cursor hasta el inicio (copia al portapapeles)"
       key: Ctrl + w | Esc + Backspace
     - name: "[Palabra] Corta de una palabra, desde el caracter del curso hasta el final de la palabra (copia al portapapeles)"
       key: Alt + d | Esc + d
-    - name: "Pegar el ultimo contenido cortado"
+    - name: "Pega el ultimo contenido cortado"
       key: Ctrl + y
 - name: Borrado de contenido
   keybinds:
